@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_jimsheldon_vagrant_1701979668938-push-trigger-input-set
+  identifier: Build_jimsheldon_vagrant_1701979668938pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_jimsheldon_vagrant_1701979668938
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
