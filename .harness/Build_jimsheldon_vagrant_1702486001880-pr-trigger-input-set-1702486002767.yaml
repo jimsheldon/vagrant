@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_jimsheldon_vagrant_1702486001880-pr-trigger-input-set
+  identifier: Build_jimsheldon_vagrant_1702486001880prtriggerinputset
+  orgIdentifier: December_2023
+  projectIdentifier: jim_sheldon_dec11
+  pipeline:
+    identifier: Build_jimsheldon_vagrant_1702486001880
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
