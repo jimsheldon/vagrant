@@ -1,6 +1,8 @@
 # Copyright (c) HashiCorp, Inc.
 # SPDX-License-Identifier: BUSL-1.1
 
+# trigger pipeline
+
 module Vagrant
   module Plugin
     module V2
